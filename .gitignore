@@ -17,7 +17,21 @@
 !/log/.keep
 !/tmp/.keep
 
-/node_modules
-/yarn-error.log
-
+# Ignore Byebug command history file.
 .byebug_history
+
+# RSpec
+spec/examples.txt
+
+/public/*
+
+# https://github.com/bkeepers/dotenv
+.env
+.env.development
+.env.test
+.env.production
+
+dump.rdb
+.DS_Store
+app/.DS_Store
+app/assets/.DS_Store
